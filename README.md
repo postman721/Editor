@@ -8,5 +8,13 @@ This is a QT5 project, so use QtCreator or similar to compile it.
 
 <b>May 3rd Bug notice.</b> 
 
+<b>Fixed issues:
 Setting font to italic and underlining are a bit too powerful at this point.
-These features affect all the words. This issue will be fixed in a near future. 
+These features affect all the words. This issue will be fixed in a near future.</b>
+
+<b>Usage:</b> 
+
+Select a text you want to modify then click your button of choice(for example, underline).
+
+When you have clicked a button to modify text, then the selected action will become global until you select a text section again and press the normalization button. After the normalization button has been pressed(with a text selection) then your font will revert to normal.
+
