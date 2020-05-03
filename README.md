@@ -16,5 +16,5 @@ These features affect all the words. This issue will be fixed in a near future.<
 
 Select a text you want to modify then click your button of choice(for example, underline).
 
-When you have clicked a button to modify text, then the selected action will become global until you select a text section again and press the normalization button. After the normalization button has been pressed(with a text selection) then your font will revert to normal.
+When you have clicked a button to modify text, then the selected action will become global until you select some text again and press the normalization button(or anything else). After the normalization button has been pressed(while having some text selected) then your font will revert to normal.
 
