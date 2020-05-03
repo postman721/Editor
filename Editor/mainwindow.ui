@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>942</width>
+    <width>1026</width>
     <height>567</height>
    </rect>
   </property>
@@ -110,6 +110,17 @@ QSpinBox{background-color:black;}
         </property>
        </widget>
       </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="maximumSize">
+        <size>
+         <width>74</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Bold_Italic</string>
+       </property>
+      </widget>
       <widget class="QPushButton" name="pushButton">
        <property name="maximumSize">
         <size>
@@ -166,6 +177,17 @@ QSpinBox{background-color:black;}
        </property>
        <property name="text">
         <string>Underline</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="maximumSize">
+        <size>
+         <width>121</width>
+         <height>23</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Bold_Underline</string>
        </property>
       </widget>
      </widget>

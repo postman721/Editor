@@ -69,10 +69,14 @@ void MainWindow::on_pushButton_9_clicked()
 
 
 void MainWindow::on_pushButton_11_clicked()
-{   bool variable;
-    QFont font;
+{   QFont font;
     font.setItalic(true);
-    if (&variable) {ui->textEdit->setFont(font);}}
+
+    QTextCharFormat format;
+     format.setFont(font);
+
+    QTextCursor cursor = ui->textEdit->textCursor();
+    cursor.mergeCharFormat(format);   }
 
 void MainWindow::on_pushButton_10_clicked()
 {
@@ -95,10 +99,15 @@ void MainWindow::on_pushButton_12_clicked()
 
 void MainWindow::on_pushButton_13_clicked()
 {
-    bool variable;
     QFont font;
     font.setUnderline(true);
-    if (&variable) {ui->textEdit->setFont(font);}
+
+    QTextCharFormat format;
+     format.setFontWeight(QFont::Normal);
+     format.setFont(font);
+
+    QTextCursor cursor = ui->textEdit->textCursor();
+    cursor.mergeCharFormat(format);
 }
 
 
@@ -118,14 +127,42 @@ void MainWindow::on_pushButton_6_clicked()
 
 void MainWindow::on_pushButton_14_clicked()
 {
+    QFont font;
+    font.setUnderline(false);
+
     QTextCharFormat format;
      format.setFontWeight(QFont::Normal);
+     format.setFont(font);
 
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.mergeCharFormat(format);
 
-    bool variable;
+}
+
+void MainWindow::on_pushButton_15_clicked()
+{
     QFont font;
-    font.setUnderline(false);
-    if (&variable) {ui->textEdit->setFont(font);}
+    font.setUnderline(true);
+    font.setBold(true);
+
+    QTextCharFormat format;
+     format.setFontWeight(QFont::Normal);
+     format.setFont(font);
+
+    QTextCursor cursor = ui->textEdit->textCursor();
+    cursor.mergeCharFormat(format);
+}
+
+void MainWindow::on_pushButton_16_clicked()
+{
+    QFont font;
+    font.setBold(true);
+    font.setItalic(true);
+
+    QTextCharFormat format;
+     format.setFontWeight(QFont::Normal);
+     format.setFont(font);
+
+    QTextCursor cursor = ui->textEdit->textCursor();
+    cursor.mergeCharFormat(format);
 }
