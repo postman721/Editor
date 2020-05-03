@@ -6,7 +6,7 @@
 You should find all the general features of a text editor from the ++Editor.
 This is a QT5 project, so use QtCreator or similar to compile it.
 
-<b>May 3rd Bug notice.</b> 
+<s>May 3rd Bug notice.</s> 
 
 <s>Fixed issues:
 Setting font to italic and underlining are a bit too powerful at this point.
