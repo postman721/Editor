@@ -1,4 +1,4 @@
-# Editor
+# ++Editor
 ++Editor is a C++ text editor
 
 ![screen](https://user-images.githubusercontent.com/29865797/80912107-67adf380-8d43-11ea-9013-eb9b601829c2.jpg)
