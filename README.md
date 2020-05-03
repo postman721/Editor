@@ -8,9 +8,9 @@ This is a QT5 project, so use QtCreator or similar to compile it.
 
 <b>May 3rd Bug notice.</b> 
 
-<b>Fixed issues:
+<s>Fixed issues:
 Setting font to italic and underlining are a bit too powerful at this point.
-These features affect all the words. This issue will be fixed in a near future.</b>
+These features affect all the words. This issue will be fixed in a near future.</s>
 
 <b>Usage:</b> 
 
