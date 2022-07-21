@@ -8,16 +8,14 @@ This is a QT5 project, so use QtCreator or similar to compile it.
 ![editor](https://user-images.githubusercontent.com/29865797/180230738-b1e50da7-5119-41eb-b907-0f7920009b3d.jpg)
 
 </br></br>
-<b>Usage example of underline, bold etc. functions</b> 
-
-Select a text you want to modify then click your button of choice(for example, underline).
+<b>Usage example of underline, bold etc. functions</b> </br>
+</br>Select a text you want to modify then click your button of choice(for example, underline).
 
 </br>
-<b>If you have not selected any text</b>
-</br>
-If you have clicked a button to modify text, without a text selection, then the selected action will not apply. 
+<b>If you have not selected any text</b></br>
+</br>If you have clicked a button to modify text, without a text selection, then the selected action will not apply. 
 
-You will always need to select a text first. When the selected text is modified then the line will continue with those modifications. 
+</br>You will always need to select a text first. When the selected text is modified then the line will continue with those modifications. 
 
 </br></br>
 
