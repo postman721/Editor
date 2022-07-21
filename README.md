@@ -14,7 +14,9 @@ Select a text you want to modify then click your button of choice(for example, u
 
 <b>If you have not selected any text</b>
 
-If you have clicked a button to modify text, then the selected action will become global until you press the normalization button(or anything else). 
+If you have clicked a button to modify text, without a text selection, then the selected action will not apply. 
+
+You will always need to select a text first. When the selected text is modified then the line will continue with those modifications. 
 
 
 #### Previous releases 
