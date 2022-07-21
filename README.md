@@ -8,12 +8,13 @@ This is a QT5 project, so use QtCreator or similar to compile it.
 ![editor](https://user-images.githubusercontent.com/29865797/180230738-b1e50da7-5119-41eb-b907-0f7920009b3d.jpg)
 
 
-<b>Usage:</b> 
+<b>Usage example of underline, bold etc. functions</b> 
 
 Select a text you want to modify then click your button of choice(for example, underline).
 
-When you have clicked a button to modify text, then the selected action will become global until you select some text again and press the normalization button(or anything else). After the normalization button has been pressed(while having some text selected) then your font will revert to normal.
+<b>If you have not selected any text</b>
 
+If you have clicked a button to modify text, then the selected action will become global until you press the normalization button(or anything else). 
 
 
 #### Previous releases 
