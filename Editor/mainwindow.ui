@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1026</width>
+    <width>1207</width>
     <height>567</height>
    </rect>
   </property>
@@ -14,7 +14,7 @@
    <string>++Editor</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">*{background-color:#1b455e; color:white;}
+   <string notr="true">*{background-color:#424242; color:white;}
 QPushButton{background-color:black; color:white;}
 QTextEdit{color:black;}
 QFontComboBox{background-color:black;}
@@ -28,178 +28,20 @@ QSpinBox{background-color:black;}
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
-      <widget class="QPushButton" name="pushButton_4">
-       <property name="maximumSize">
-        <size>
-         <width>116</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Open</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_5">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Print</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="maximumSize">
-        <size>
-         <width>116</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Zoom in</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_3">
-       <property name="maximumSize">
-        <size>
-         <width>116</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Zoom out</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_6">
-       <property name="maximumSize">
-        <size>
-         <width>116</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Save</string>
-       </property>
-      </widget>
       <widget class="QSplitter" name="splitter_4">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <widget class="QPushButton" name="pushButton_11">
-        <property name="maximumSize">
-         <size>
-          <width>83</width>
-          <height>23</height>
-         </size>
-        </property>
-        <property name="text">
-         <string>Font to Italic</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButton_10">
-        <property name="maximumSize">
-         <size>
-          <width>81</width>
-          <height>23</height>
-         </size>
-        </property>
-        <property name="text">
-         <string>Font to Bold</string>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="pushButton_16">
-       <property name="maximumSize">
-        <size>
-         <width>74</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Bold_Italic</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true"/>
-       </property>
-       <property name="text">
-        <string>Copy</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_7">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Paste</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Undo</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_9">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Redo</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_13">
-       <property name="maximumSize">
-        <size>
-         <width>80</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Underline</string>
-       </property>
-      </widget>
-      <widget class="QPushButton" name="pushButton_15">
-       <property name="maximumSize">
-        <size>
-         <width>121</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Bold_Underline</string>
-       </property>
       </widget>
      </widget>
     </item>
-    <item row="1" column="0">
-     <widget class="QTextEdit" name="textEdit">
-      <property name="styleSheet">
-       <string notr="true">QTextEdit#textEdit{background-color:white;}
-</string>
+    <item row="1" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="tabsClosable">
+       <bool>true</bool>
       </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
+      <property name="movable">
+       <bool>true</bool>
       </property>
      </widget>
     </item>
@@ -211,8 +53,8 @@ QSpinBox{background-color:black;}
       <widget class="QSplitter" name="splitter_6">
        <property name="maximumSize">
         <size>
-         <width>291</width>
-         <height>23</height>
+         <width>0</width>
+         <height>16777215</height>
         </size>
        </property>
        <property name="orientation">
@@ -221,67 +63,19 @@ QSpinBox{background-color:black;}
        <widget class="QSplitter" name="splitter_5">
         <property name="maximumSize">
          <size>
-          <width>244</width>
-          <height>23</height>
+          <width>0</width>
+          <height>0</height>
          </size>
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
-        <widget class="QFontComboBox" name="fontComboBox">
-         <property name="maximumSize">
-          <size>
-           <width>160</width>
-           <height>23</height>
-          </size>
-         </property>
-         <property name="editable">
-          <bool>false</bool>
-         </property>
-        </widget>
-        <widget class="QPushButton" name="pushButton_12">
-         <property name="maximumSize">
-          <size>
-           <width>80</width>
-           <height>23</height>
-          </size>
-         </property>
-         <property name="text">
-          <string>Color</string>
-         </property>
-        </widget>
        </widget>
-       <widget class="QSpinBox" name="spinBox_2">
-        <property name="maximumSize">
-         <size>
-          <width>43</width>
-          <height>23</height>
-         </size>
-        </property>
-        <property name="toolTip">
-         <string>Font size</string>
-        </property>
-        <property name="minimum">
-         <number>1</number>
-        </property>
-       </widget>
-      </widget>
-      <widget class="QPushButton" name="pushButton_14">
-       <property name="maximumSize">
-        <size>
-         <width>97</width>
-         <height>23</height>
-        </size>
-       </property>
-       <property name="text">
-        <string>Normalize font</string>
-       </property>
       </widget>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <action name="actionOpen">
    <property name="text">
     <string>Open</string>
