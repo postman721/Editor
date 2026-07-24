@@ -5,6 +5,7 @@ Keeping the real source and Debian packaging inside one tracked tar archive
 prevents GitHub-generated ZIP downloads from changing project line endings,
 permissions, or timestamps.
 
+<b> Notice. Timestamps are in the past inside the archive. This is due to my dev system clock skew that happened during the development </b>
 ## Verify and extract
 
 ```bash
