@@ -55,15 +55,15 @@ at full resolution.
 
 ### LWM Graphite
 
-[![++Editor using the LWM Graphite theme](screenshots/lwm-graphite.png)](screenshots/lwm-graphite.png)
+[![++Editor using the LWM Graphite theme](screenshots/graphite_theme)](screenshots/graphite_theme)
 
 ### LWM Dark
 
-[![++Editor using the LWM Dark theme](screenshots/lwm-dark.png)](screenshots/lwm-dark.png)
+[![++Editor using the LWM Dark theme](screenshots/dark_theme)](screenshots/dark_theme)
 
 ### LWM Blue
 
-[![++Editor using the LWM Blue theme](screenshots/lwm-blue.png)](screenshots/lwm-blue.png)
+[![++Editor using the LWM Blue theme](screenshots/blue_theme)](screenshots/blue_theme)
 
 ## Open files
 
