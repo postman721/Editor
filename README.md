@@ -31,7 +31,7 @@ test shutdown for cleaner Memcheck results.
 
 # ++Editor 3.6.2
 
-++Editor is a small traditional text editor written in C++ with Qt 6. It keeps
+++Editor is a small traditional text editor written in C++ with Qt6. It keeps
 its design straightforward: `MainWindow` manages the window and tabs, `Form`
 manages one document, and `Themes` applies the LWM themes.
 
